@@ -4,7 +4,9 @@ public class App {
     public static void main(String[] args) {
         // Unused variable (Sonar issue)
         int unused = 0;
-
+        String a=null;
+        String b="Hi";
+        System.out.println(a.equals(b));
         // Duplicate string literals (Sonar issue)
         System.out.println("Hello World");
         System.out.println("Hello World");

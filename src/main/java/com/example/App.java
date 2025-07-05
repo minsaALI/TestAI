@@ -5,7 +5,7 @@ public class App {
 
         String a=null;
         String b="Hi";
-        System.out.println(a.equals(b));
-        
+        if(a.equals(b))
+            b="Hello";
     }
 }

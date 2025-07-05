@@ -6,6 +6,7 @@ public class App {
         int unused = 0;
         String a=null;
         String b="Hi";
+        String hardcodedPassword = "admin123";
         System.out.println(a.equals(b));
         // Duplicate string literals (Sonar issue)
         System.out.println("Hello World");
